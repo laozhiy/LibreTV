@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0
 
       - name: Add upstream remote
-        run: git remote add upstream https://github.com/原作者的仓库地址.git
+        run: git remote add upstream https://github.com/LibreSpark/LibreTV.git
 
       - name: Fetch and merge upstream
         run: |
